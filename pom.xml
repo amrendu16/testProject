@@ -63,15 +63,8 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.7</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/oracle/ojdbc14 -->
-        <dependency>
-            <groupId>oracle</groupId>
-            <artifactId>ojdbc14</artifactId>
-            <version>10.2.0.1.0</version>
-        </dependency>
     </dependencies>
-    
+
     <build>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
