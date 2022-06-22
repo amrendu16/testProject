@@ -4,6 +4,7 @@ pipeline {
     agent any
     tools {
           maven 'MAVEN_HOME'
+          jdk 'JAVA_HOME'
         }
 
     stages {
@@ -11,6 +12,8 @@ pipeline {
             steps {
                 sh "mvn -version"
                 sh "mvn clean install"
+                sh "java -version"
+                sh 'javac -version'
             }
         }
     }
